@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gerador de QR Code</title>
+</head>
+
+<body>
+  <main>
+    <div class="header">
+      <h2>Gerador de QR Code</h2>
+    </div>
+    <div class="qrCode">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://github.com/felipegs0?tab=overview&from=2025-03-01&to=2025-03-29" alt="">
+    </div>
+    <div>
+      <form>
+        <label for="qr" id="lbQr">Insira o texto que deseja transformar em QR Code:</label>
+        <textarea id="qrCodeType" required"></textarea>
+        <button class="btEnviar">Enviar</button>
+      </form>
+    </div>
+  </main>
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
